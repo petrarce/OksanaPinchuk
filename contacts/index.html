@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts | Oksana Pinchuk</title>
+    <link rel="shortcut icon" href="img/oksana.jpg" type="image/x-icon">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Comic Sans MS', sans-serif;
+      }
+      
+      body {
+        background: url(img/Background.png) no-repeat center center fixed;
+        background-size: cover;color: #fff;
+        
+      } 
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+  }
+  .navbar a {
+    color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+  }
+  .navbar a:hover {
+      color: #ff9800;
+  }
+
+
+    .container {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.644);
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        color: #ff9800;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        border-bottom: 1px solid #555;
+    }
+
+    .contact-info div {
+        width: 45%;
+    }
+
+    .contact-info h2 {
+        font-size: 1.5em;
+    }
+
+    .contact-info p {
+        line-height: 1.6;
+    }
+
+    .contact-info a {
+        color: #ff9800;
+        text-decoration: none;
+    }
+
+    .images {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .images img {
+        width: 30%;
+        margin: 5px;
+    }
+
+    .contact-form {
+        padding: 20px 0;
+    }
+
+    .contact-form label {
+        display: block;
+        margin: 10px 0 5px;
+        font-weight: bold;
+    }
+
+    .contact-form input, .contact-form textarea, .contact-form button {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+
+    .contact-form button {
+        background-color: #ff9800;
+        color: #000;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    </style>
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <a href="/">Home</a>
+            <a href="-AboutMe/">About Me</a>
+            <a href="/videos/">Videos</a>
+            <a href="/contacts">Contacts</a>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h1>Contacts</h1>
+    
+        <div class="contact-info">
+            <div>
+                <h2>Want to contact me?</h2>
+                <p>you can write to me at THIS email and call THIS number</p>
+            </div>
+            <div>
+                <p><strong>Phone number</strong><br>
+                   +322232323232</p>
+                <p><strong>E-Mail</strong><br>
+                   <a href="">email</a></p>
+            </div>
+        </div>
+    
+        <div class="images">
+
+        </div>
+    
+        <div class="contact-form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="note">Note</label>
+                <textarea id="note" name="note" rows="4" required></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <footer style="background-color: #222; color: #fff; padding: 0.5px; text-align: center; margin: auto;">
+        <div class="footer-content">
+            <p>&copy; 2024 Oksana Pinchuk. All rights reserved.</p><br>
+            <p>Website author: Данька</p><br>
+            <p>Performer: Oksana Pinchuk</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/oksana.pinchuk.9" style="color: #fff; margin: 0 10px;">Facebook</a>
+                <a href="https://www.youtube.com/@oksanapinchuk2976" style="color: #fff; margin: 0 10px;">YouTube</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
